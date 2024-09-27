@@ -1,5 +1,0 @@
-outs:
-- md5: 8bcb7c381c40daf50e352f3a65836ebb
-  size: 2549
-  hash: md5
-  path: minimal_churn_data.csv
