@@ -21,6 +21,5 @@ if __name__ == "__main__":
         print("Churn Rates:")
         for contract_type, rate in churn_rates.items():
             print(f"{contract_type}: {rate:.2%}")
-
     except KeyError as e:
         print(f"KeyError: {e} - Check if the required columns exist in your dataset.")
