@@ -1,0 +1,7 @@
+stages:
+  process_data:
+    cmd: echo "Processing data for churn prediction"
+    deps:
+      - churn_data.csv
+    outs:
+      - processed_data.csv  # Placeholder for the processed data file
