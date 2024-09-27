@@ -30,7 +30,7 @@ from sklearn.ensemble import RandomForestClassifier
 from xgboost import XGBClassifier
 from sklearn.metrics import accuracy_score, precision_score, recall_score
  # AutoML Functionality
- def auto_ml_churn_prediction(data):
+def auto_ml_churn_prediction(data):
         # Prepare the features and target variable
         X = data[['Contract_Type', 'Monthly_Charges', 'Tenure']]
         y = data['Churn_Flag']
